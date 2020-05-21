@@ -11,6 +11,7 @@ public class passarLlista {
 		String user = preguntarUsuari();
 		String pw = preguntarPassword();
 		System.out.println("Benvingut " + user);
+		String alumne = preguntarAlumne();
 
 
 	}
@@ -29,5 +30,10 @@ public class passarLlista {
 		return sc.next();
 	}
 
-
+	public static String preguntarAlumne() {
+		System.out.println("Indica l'alumne");
+		return sc.next();
+	}
+	
+	
 }
