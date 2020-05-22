@@ -35,5 +35,13 @@ public class passarLlista {
 		return sc.next();
 	}
 	
+	public static String preguntarAlumne8() {
+		System.out.println("Indica l'alumne");
+		return sc.next();
+	}
+	public static String preguntarAlumne6() {
+		System.out.println("Indica l'alumne");
+		return sc.next();
+	}
 	
 }
